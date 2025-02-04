@@ -1,0 +1,245 @@
+{
+    "root": {
+        "data": {
+            "id": "d76tolf77q80",
+            "created": 1737368358328,
+            "text": "Products"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d76tp63da3k0",
+                    "created": 1737368403325,
+                    "text": "VIP",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77f50o49yo0",
+                            "created": 1737428888654,
+                            "text": "内网IP，与keepalived配合可实现入口漂移，做到服务高可用"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76tpuadycw0",
+                    "created": 1737368455992,
+                    "text": "UNI",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77fjji2u200",
+                            "created": 1737430026746,
+                            "text": "可与云主机弹性绑定"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76txd16ujs0",
+                    "created": 1737369045344,
+                    "text": "子网"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77fkip772w0",
+                            "created": 1737430103364,
+                            "text": "默认子网"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d77fkj2oezs0",
+                            "created": 1737430104179,
+                            "text": "自定义子网"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76tt2zm4nc0",
+                    "created": 1737368710025,
+                    "text": "VPC"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77fkp63e0w0",
+                            "created": 1737430117446,
+                            "text": "经典VPC",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d77fky06ff40",
+                                    "created": 1737430136679,
+                                    "text": "含默认子网的VPC"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d77fkpjbh5s0",
+                            "created": 1737430118246,
+                            "text": "自定义VPC"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76tvk5p5aw0",
+                    "created": 1737368904126,
+                    "text": "NAT网关",
+                    "layout_mind_offset": {
+                        "x": 1.9999999682108864,
+                        "y": -0.9999999841054432
+                    },
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77eosge4kw0",
+                            "created": 1737427616946,
+                            "text": "SNAT"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d77eot86mb40",
+                            "created": 1737427618626,
+                            "text": "DNAT"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76twcmsrv40",
+                    "created": 1737368966110,
+                    "text": "路由表"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77eyu1n3mg0",
+                            "created": 1737428404049,
+                            "text": "默认路由表"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d77eyuhw8xk0",
+                            "created": 1737428405032,
+                            "text": "自定义路由表",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d77ez4c5ojk0",
+                                    "created": 1737428426453,
+                                    "text": "支持下一跳类型为内网VIP和实例"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d77f01vyjq00",
+                            "created": 1737428499484,
+                            "text": "NOTE",
+                            "expandState": "collapse"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d77f083hpag0",
+                                    "created": 1737428513000,
+                                    "text": "规则中网段可重叠，不能完全相同"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76tvqqqcmo0",
+                    "created": 1737368918459,
+                    "text": "ACL",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77f1qg10o00",
+                            "created": 1737428631304,
+                            "text": "子网级别访问控制，即将被安全组取代"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d77f2e1k5mo0",
+                            "created": 1737428682672,
+                            "text": "无状态"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d76tvx4z9vk0",
+                    "created": 1737368932381,
+                    "text": "安全组",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d77f21pi0l40",
+                            "created": 1737428655822,
+                            "text": "实例级别访问控制"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d77f2it87lc0",
+                            "created": 1737428693052,
+                            "text": "有状态"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
